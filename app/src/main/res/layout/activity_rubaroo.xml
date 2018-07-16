@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.eventmanager.Rubaroo"
+    android:id="@+id/eee">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <RelativeLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical">
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rubaroo 2K15"
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rubaroo 2k15 is a Cultural Festival organised by: SRM University NCR Campus, Modinagar, Uttar Pradesh \n\nImportant dates: \nEvent dates: 26th-27th March 2015\nLast Dates for Registration: Last date for online registration is 20th March 2015 \n\nEvent Details: SRM UNIVERSITY NCR CAMPUS \n\nSRM University has become synonymous with success for the youth of the country. Into its 27th year of glorified services in multiple fields of education. It has several benchmarks and attracted various kinds of intellectuals and cultural movements. SRM has been ranked as No. 1 Private University by Education Times - Gfk mode survey (March 2009). \n\nIt has pledged to continue with its endeavor to provide quality education to the country in the fields of engineering, science, management, medicine, architecture, humanities and research. SRM University is driven to lead India to a path of prosperity and success. \n\nRUBAROO:- \nRubaroo is a two day National Level Cultural Festival, which sees participation and involvement of 1000+ students all across the nation. Rubaroo is widely considered as the biggest college cultural festival of the region. In past famous artists like Bohemia, Tochi Raina, Javed Ali, Shalmali Kholgade, Shilpa Rao have graced the festival with their performances and presence.\n\nEvents in Modinagar : \nStomp The Yard \nHo Re'vo 4.0 \nHalla BolStreet Dance \nDer Reiz- The Fashion Parade \nVadyantramMusic \nMantraKlingen \nCreedSymphony Of The Phoenix \n\nEvent Co-ordinators: \nArchit Mehra \n8769141848"
+        android:id="@+id/textView16"
+        android:textSize="15dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/imageView5"
+                android:layout_below="@+id/textView15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/eka"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/imageView6"
+                android:background="@drawable/zaeden"
+                android:layout_below="@+id/imageView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="29dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

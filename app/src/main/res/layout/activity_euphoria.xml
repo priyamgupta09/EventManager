@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.eventmanager.Euphoria">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <RelativeLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WYSIWYG 2K15"
+        android:id="@+id/textView21"
+        android:textSize="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WYSIWYG 2K15 is a Cultural and Management Festival organised by: Institute of Technology and Science ITS, Ghaziabad, Uttar Pradesh \n\nImportant dates: \nEvent dates: 27th-28th February 2015 \nLast Dates for Registration: 23-FEB-2015 \n\nEvent Details: Started in 2008 WYSIWYG (What You Say Is What You Gain) is the annual management cultural pg fest of Institute of Technology and science. \n\nEvents in Ghaziabad : \nNUKKAD NATAK \nAd-Mad Show \nSolo Dance Competition \nGroup Dance Competiotion \nCyber Games \nWar of Bands \nBusiness Plan \nT-Shirt painting \nSimulation Games \nBusiness Quiz \nDebate \nFashion Show \nCase study competition \nTreasure Hunt \nGroup Discussion \nExtempore  \n\nWYSIWYG 2K15 Pro Nites : DJ  WYSIWYG 2K15 \nFest Guests: EUPHORIA  \n\nEvent Co-ordinators:  \nAnik Chowdhuy - +91-8750618861 \nGourab Nag- +91-7053681717 \nAakriti Agnihotri- +91-9650787139"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/imageView11"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/iitts"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/imageView12"
+        android:background="@drawable/its"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

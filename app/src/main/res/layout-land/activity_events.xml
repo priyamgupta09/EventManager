@@ -1,0 +1,119 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.eventmanager.Events"
+    android:background="@android:color/darker_gray"
+    android:id="@+id/eve">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <RelativeLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical">
+
+    <TextView android:text="FESTS" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fest"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false" />
+
+
+     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kolaahal"
+            android:id="@+id/textView13"
+            android:textIsSelectable="false"
+            android:textSize="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rubaroo"
+        android:id="@+id/textView11"
+        android:textSize="25dp"
+        android:layout_below="@+id/fest"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        style="@android:style/TextAppearance.Material.Display2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Epoque"
+        android:id="@+id/textView12"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Euphoria"
+                android:id="@+id/textView14"
+                android:textIsSelectable="false"
+                android:textSize="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/imageView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageView4"
+                android:background="@drawable/iitts"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textView14"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/kola"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView13"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/rub"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView11"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/epo"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

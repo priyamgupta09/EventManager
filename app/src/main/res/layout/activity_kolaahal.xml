@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.eventmanager.Kolaahal">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <RelativeLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zzzz" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kolaahal"
+        android:id="@+id/textView19"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event: Kolaahal 2015 | Cultural Fest \n\nKolaahal 2015 is a Cultural Fest Organised by: Meerut Institute of Engineering and Technology, Meerut, Uttar Pradesh \n\nKolaahal 2015 dates:  \nFest dates: 21st-22nd February 2015 \nLast Dates for Registration: 20th February, 2015  \n\nDetails: \nKolaahal is an annual cultural festival of Meerut Institute of Engineering and Technology which is to be held from 21st Feb to 22nd Feb 2015. \n\nKolaahal 2015 Cultural Events in Meerut : \nMai Shayar Badnaam \nJaltarang: Solo Singing Competition. \nFUGUE: Duet Singing Competition. \nStrings on Fire: Instrumental. \nFoxtrort Footloose: A Solo Dance Competition. \nChorio phoria: Group Dancing \nRang Manch Mr and Miss MIET Battle of Bands \n\nKolaahal 2014 Co-ordinators Details: \nPhone: 0121 - 2439019, 0121 - 2439057 \nFax: 0121 - 2439058  \n\nHow to reach Meerut Institute of Engineering and Technology:  \nMeerut Institute of Engineering and Technology, Meerut N.H. 58, Delhi-Roorkee Highway, Baghpat Road Bypass Crossing, Meerut-250005, UP(India)"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/imageView10"
+        android:layout_toRightOf="@+id/zzzz"
+        android:layout_toEndOf="@+id/zzzz"
+        android:layout_marginTop="32dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/imageView8"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/kolahalmiet" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/imageView10"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/miete"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

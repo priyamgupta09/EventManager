@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Event Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_colleges">colleges</string>
+    <string name="title_activity_srmuniversity">Map</string>
+    <string name="title_activity_kiet">Map</string>
+    <string name="title_activity_its">Map</string>
+    <string name="title_activity_about">about</string>
+    <string name="title_activity_about1">about1</string>
+    <string name="title_activity_miet">Map</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_rubaroo">Rubaroo</string>
+    <string name="title_activity_epoque">Epoque</string>
+    <string name="title_activity_kolaahal">Kolaahal</string>
+    <string name="title_activity_euphoria">Euphoria</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="a">ABOUT</string>
+    <string name="b">COLLEGES</string>
+    <string name="c">EVENTS</string>
+    <string name="d">CREDITS</string>
+    <string name="e">EXIT</string>
+    <string name="f">Event Manager</string>
+    <string name="aa">ABOUT</string>
+    <string name="cc">CREDITS</string>
+    <string name="bb">COLLEGES</string>
+    <string name="dd">EVENTS</string>
+    <string name="ee">EXIT</string>
+    <string name="ff">Event Manager</string>
+
+</resources>

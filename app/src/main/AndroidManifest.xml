@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sagar.eventmanager" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".homepage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Colleges"
+            android:label="@string/title_activity_colleges"
+            android:parentActivityName=".homepage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.homepage" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".SRMUniversity"
+            android:label="@string/title_activity_srmuniversity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.Colleges" />
+        </activity>
+        <activity
+            android:name=".KIET"
+            android:label="@string/title_activity_kiet" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.Colleges" />
+        </activity>
+        <activity
+            android:name=".ITS"
+            android:label="@string/title_activity_its" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.Colleges" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".homepage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.homepage" />
+        </activity>
+        <activity
+            android:name=".MIET"
+            android:label="@string/title_activity_miet" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.Colleges" />
+        </activity>
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events"
+            android:parentActivityName=".homepage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.homepage" />
+        </activity>
+        <activity
+            android:name=".Rubaroo"
+            android:label="@string/title_activity_rubaroo"
+            android:parentActivityName=".Events" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.Events" />
+        </activity>
+        <activity
+            android:name=".Epoque"
+            android:label="@string/title_activity_epoque"
+            android:parentActivityName=".Events" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.Events" />
+        </activity>
+        <activity
+            android:name=".Kolaahal"
+            android:label="@string/title_activity_kolaahal"
+            android:parentActivityName=".Events" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.Events" />
+        </activity>
+        <activity
+            android:name=".Euphoria"
+            android:label="@string/title_activity_euphoria"
+            android:parentActivityName=".Events" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.Events" />
+        </activity>
+        <activity
+            android:name=".Credits"
+            android:label="@string/title_activity_credits"
+            android:parentActivityName=".homepage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sagar.eventmanager.homepage" />
+        </activity>
+    </application>
+
+</manifest>

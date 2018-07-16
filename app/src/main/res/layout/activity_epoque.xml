@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.eventmanager.Epoque">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <RelativeLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Epoque "
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event: Epoque 2013 | Techno Cultural Fest \n\nEpoque 2013 is Organised by: Krishna Institute of Engineering and Technology, Ghaziabad, Uttar Pradesh \n\nEpoque 2013 dates: \nFest dates: 20th-21st March 2015 \nLast Dates for Registration: 10th March 2015 \n\nDetails: \nThe Word Epoque Denotes An Age Rich With Culture And Art, An Era Of Elegance And Gaiety. Epoque Is An Attempt To Create Its Minor Replica In Krishna Institute Of Engineering and Technology, For Reliving Our Rich Culture Year After Year With Innovation Getting Enhanced With Ligament (Youth) Of New Imagination. The Legacy Of 13 Km Stone Is Rejuvenating Sabbatical After A Break Of Meticulous Learning. A Spicy Blend Of Technical Expo And Rejoicing Cultural Events, Which Creates The Saga Of Enthralling Happenings For Young Brains \n\nEvents:- \nDeep Prajwalan Video \nFormal Epoque Opening by Director \nKavyanjali (Kavi Sammelan)\nSki Play \nSolo Dance \nNukkad Natak \nGroup Dance \nFun Events \nWelcome By Anchors \nAddress By Director \nFashion Show \nStar Performance by Celebrity\n DJ Night \n\nEvent Co-ordinator:- \nNimish Gupta 3rd year-7417843488"
+        android:id="@+id/textView18"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/imageView7"
+        android:background="@drawable/kietee"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/imageView9"
+        android:background="@drawable/kiete"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
